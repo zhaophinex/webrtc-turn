@@ -1,0 +1,7 @@
+# Both values come from the TURN key you create in the Cloudflare dashboard.
+TURN_KEY_ID=
+TURN_KEY_API_TOKEN=
+
+# Optional. Leave it out and the worker derives a token from TURN_KEY_API_TOKEN,
+# then shows the finished URL on its own home page right after you deploy.
+# ACCESS_TOKEN=
